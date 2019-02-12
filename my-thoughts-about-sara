@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tha test</title>
+    <script type="application/ld+json">
+            {
+                                  "@context": "https://schema.org/",
+                                  "@type": "Review",
+                                  "itemReviewed": {
+                                    "@type": "Restaurant",
+                                    "name": "Sara's Souvlaki",
+                                    "servesCuisine": "Greek",
+                                    "telephone": "2112055698",
+                                    "address" :{
+                                      "@type": "PostalAddress",
+                                      "streetAddress": "100 Peireos Str.",
+                                      "addressLocality": "Athens",
+                                      "addressRegion": "Attika",
+                                      "postalCode": "11853",
+                                      "addressCountry": "GR"
+                                    }
+                                  },
+                                  "reviewRating": {
+                                    "@type": "Rating",
+                                    "ratingValue": "4"
+                                  },
+                                  "name": "A good souvlaki place.",
+                                  "author": {
+                                    "@type": "Person",
+                                    "name": "Yota Germanou"
+                                  },
+                                  "reviewBody": "The soublaki is great."
+                                }
+    </script>
+</head>
+<body>
+    Tha product
+</body>
+</html>
